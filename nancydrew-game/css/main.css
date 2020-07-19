@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(95, 41, 25);
+}
+section {
+    width: 600px;
+    height: 650px;
+    background-color: burlywood;
+    background-image: url('../img/qubodup-light_wood.png');
+    font-family: 'Prata', serif; 
+    margin: 0 auto;
+}
+
+#frame {
+    border: 5px solid rgb(136, 81, 10);
+    background-image: url("../img/dirt.jpg");
+    width: 550px;
+    height: 550px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+.row {
+    border: 0px solid green;
+    width: 100%;
+    height: 12.5%;
+    margin: 0px;
+}
+.square {
+    border: 2px solid rgba(136, 81, 10, 0.651);
+    width: 12.5%;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+    
+}
+
+
+.boat {
+    background-color: rgb(233, 145, 241);
+    background-image: url("../img/FinishedRR.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8%;
+    
+    border-right: 2px solid rgb(167, 102, 173);
+    border-bottom: 2px solid rgb(167, 102, 173);
+    border-top: 1px solid rgb(167, 102, 173);
+    border-left: 1px solid rgb(167, 102, 173);
+}
+
+.treasure {
+    background-color: rgba(66, 56, 0, 0.418);
+    background-image: url('../img/holeND.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid rgba(66, 58, 8, 0.377);
+    border-radius: 50%;
+    
+}
+
+.wolf {
+    background-color: rgb(224, 223, 120);
+    background-image: url("../img/wolfND.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 8%;
+    
+    border-right: 2px solid rgb(196, 194, 93);
+    border-bottom: 2px solid rgb(196, 194, 93);
+    border-top: 1px solid rgb(196, 194, 93);
+    border-left: 1px solid rgb(196, 194, 93);
+}
+.pirate {
+
+    background-image: url('../img/bushND.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.announce {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px brown;
+}
+
+.buttonContainer {
+    width: 90%;
+    margin: 0px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.winText {
+    color: white;
+    text-shadow: 2px 2px brown;
+}
+
